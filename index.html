@@ -76,10 +76,12 @@
         <h3>Newsletter</h3>
         <p>Assine nossa newsletter para se manter atualizado com nossos serviços e a programação de nossos eventos culturais.</p>
         <hr>
-        <form action="" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="post">
             
-            <input type="email" name="nletter" id="inletter" placeholder="Digite o seu E-mail">
-            <button>Cadastrar</button>
+            <input type="email" name="nletter" id="inletter" placeholder="Digite o seu E-mail" autocomplete="on" required>
+            <button type="submit">Cadastrar</button>
+            <input type="hidden" name="accessKey" value="a00995b9-eec1-4321-9e7d-e2bc4394b55b"> 
+            <input type="hidden" name="redirectTo" value="thanks.html"> 
         </form>
     </section>
     <footer>
